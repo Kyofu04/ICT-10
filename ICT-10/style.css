@@ -1,0 +1,206 @@
+body {
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Audiowide'; font-size: 60px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+p {
+    color: rgb(81, 122, 81);
+    font-family: 'Press Start 2P'; font-size: 22px;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    z-index: 2;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+.button {
+    color: rgb(245, 84, 124);
+    font-family: 'Pixelify Sans'; font-size: 33px;
+    font-weight: 700;
+    background-color: lightpink;
+    border: 5px solid lightcoral;
+    border-radius: 5px;
+    transition: all 0.3s;
+    width: 300px;
+    height: 75px;
+}
+
+.yes {
+    position: relative;
+    top: -470px;
+    left: 0px;
+    transform: translateX(-10px); 
+}
+
+.button:hover {
+    transform: translateY(-10px);
+    background-color: rgb(253, 65, 112);
+    color: lightpink;
+}
+
+.tab {
+    position: absolute;
+    top: -288px;
+    right: 16px;
+    transform: translateX(-120px);
+}
+
+.tab2 {
+    position: absolute;
+    top: -290px;
+    right: 16px;
+    transform: translateX(-10px);
+}
+
+.tab3 {
+    position: absolute;
+    top: -290px;
+    left: 35px;
+    transform: translateX(-10px); 
+}
+
+.tab4 {
+    position: absolute;
+    top: -290px;
+    left: 150px;
+    transform: translateX(-10px); 
+}
+
+.button2 {
+    color: rgb(245, 84, 124);
+    font-family: 'Pixelify Sans'; font-size: 1rem;
+    font-weight: 700;
+    background-color: lightpink;
+    border: 5px solid lightcoral;
+    border-radius: 5px;
+    transition: all 0.3s;
+    width: 100px;
+    height: 30px;
+}
+
+.button2:hover {
+    transform: translateY(-10px);
+    background-color: rgb(253, 65, 112);
+    color: lightpink;
+}
+
+.button3 {
+    color: rgb(245, 84, 124);
+    font-family: 'Pixelify Sans'; font-size: 13.5px;
+    font-weight: 700;
+    background-color: lightpink;
+    border: 5px solid lightcoral;
+    border-radius: 5px;
+    transition: all 0.3s;
+    width: 100px;
+    height: 30px;
+}
+
+.button3:hover {
+    transform: translateY(-10px);
+    background-color: rgb(253, 65, 112);
+    color: lightpink;
+}
+
+.gif2 {
+    width: 600px;
+    height: 300px;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+.p3 {
+    position: absolute;
+    transform: translateX(370px);
+    top: 300px;
+    font-size: 13px;
+}
+
+
+.info2 {
+    color: rgb(81, 122, 81);
+    font-family: 'Press Start 2P'; font-size: 20px;
+    position: absolute;
+    padding: 150px;
+}
+
+.bg-image {
+    background-image: url(Screenshot\ \(1\).png);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main1 {
+    color: rgb(194, 37, 76);
+    font-family: 'Pixelify Sans';
+    position: relative;
+    font-size: 50px;
+    animation: mymove 1.5s infinite;
+}
+
+@keyframes mymove {
+    0% {top: -150px;}
+    25% {top: -146px;}
+    50% {top: -144px;}
+    75% {top: -146px;}
+    100% {top: -150px;}
+}
+
+.pic-home {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 230px;
+    transform: translateX(-17px);
+    animation: side 2s infinite;
+}
+
+@keyframes side {
+    0% {transform: translateX(-17px);}
+    12.5% {transform: translateX(-19px);}
+    25% {transform: translateX(-21px);}
+    37.5% {transform: translateX(-19px);}
+    50% {transform: translateX(-17px);}
+    62.5% {transform: translateX(-15px);}
+    75% {transform: translateX(-13px);}
+}
+
+.vid1
+{
+    position: absolute;
+    top: 800px;
+    left: 330px;
+    width: 50%;
+    height: 50%;
+}

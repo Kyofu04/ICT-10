@@ -1,0 +1,77 @@
+body {
+    background-image: url('images/bg.png');
+    width: max-content;
+    height: max-content;
+    font-family: 'Audiowide'; font-size: 60px;
+    padding: 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.tab8 {
+    position: relative;
+    top: -570px;
+    right: -625px;
+}
+
+.button3 {
+    color: rgb(245, 84, 124);
+    font-family: 'Pixelify Sans'; font-size: 15px;
+    font-weight: 700;
+    background-color: lightpink;
+    border: 5px solid lightcoral;
+    border-radius: 5px;
+    transition: all 0.3s;
+    width: 100px;
+    height: 30px;
+}
+
+.button3:hover {
+    transform: translateY(-10px);
+    background-color: rgb(253, 65, 112);
+    color: lightpink;
+}
+
+.button2 {
+    color: rgb(245, 84, 124);
+    font-family: 'Pixelify Sans'; font-size: 33px;
+    font-weight: 700;
+    background-color: lightpink;
+    border: 5px solid lightcoral;
+    border-radius: 5px;
+    transition: all 0.3s;
+    width: 300px;
+    height: 75px;
+}
+
+.button2:hover {
+    transform: translateY(-10px);
+    background-color: rgb(253, 65, 112);
+    color: lightpink;
+}
+
+.hidden {
+    margin: auto;
+    text-align: center;
+}
+
+.description {
+    font-size: 33px;
+    transform: translateX(120px);
+    justify-content: center;
+}
+
+.download-button {
+    position: relative;
+    margin: auto;
+    align-content: center;
+    display: grid;
+    place-items: center;
+    transform: translateX(100px);
+    bottom: -40px;
+}
+
+.Welcome {
+    font-size: 66px;
+    transform: translateX(100px);
+}

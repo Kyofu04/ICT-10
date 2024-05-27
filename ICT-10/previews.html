@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previews</title>
+    <link rel="icon" type="png" href="images/16.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pixelify Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press Start 2P"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="previews.css" />
+  </head>
+  <body>
+    <section>
+      <video id="slider" controls autoplay>
+        <source src="images/showcase.mp4" type="video/mp4" />
+        <source src="images/Main_showcase.mp4" type="video/mp4" />
+      </video>
+      <ul class="navigation">
+        <li onclick="videoUrl('images/showcase.mp4')"><img src="images/Gameplay.png" /></li>
+        <li onclick="videoUrl('images/Main_showcase.mp4')"><img src="images/About_Us.png" /></li>
+      </ul>
+    </section>
+    <script type="text/javascript">
+      function videoUrl(hmmmmmm) {
+        document.getElementById("slider").src = hmmmmmm;
+      }
+    </script>
+
+    <section class="tab2">
+      <a href="ict.html">
+        <button class="button2">Home</button>
+      </a>
+    </section>
+  </body>
+</html>
